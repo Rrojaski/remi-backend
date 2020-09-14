@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/remidbserver/databases/Remi_db",
+      "type": "mssql.azure",
+      "connectionId": "remi_db",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
